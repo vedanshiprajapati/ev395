@@ -2,6 +2,24 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-:root {
-    --theme-color: #3498db; 
+/* Add this CSS to your global styles or the component's styles */
+@keyframes gradientMovement {
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.text-gradient-blue {
+  background: linear-gradient(90deg, rgba(87,87,240,1) 0%, rgba(62,117,230,1) 31%, rgba(52,144,220,1) 52%, rgba(97,175,233,1) 71%, rgba(136,214,255,1) 100%);
+  background-size: 200% 200%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: gradientMovement 3s ease infinite;
+}
