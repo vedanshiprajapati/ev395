@@ -100,18 +100,18 @@ const Header = () => {
               <ul className="flex flex-col items-center space-y-2">
                 <li>
                   <a
-                    href="/about"
+                    href="/"
                     className="hover:text-blue-500 px-4 py-2 rounded transition-all duration-300 text-lg text-gray-800 block border-b-2 border-b-gray-800"
                   >
-                    About
+                    Home
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/download"
+                    href="/about"
                     className="hover:text-green-500 px-4 py-2 rounded transition-all duration-300 text-lg text-gray-800 block border-b-2 border-b-gray-800"
                   >
-                    Download
+                    About
                   </a>
                 </li>
                 <li>
@@ -132,10 +132,10 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="/blog"
+                    href="/download"
                     className="hover:text-orange-500 px-4 py-2 rounded transition-all duration-300 text-lg text-gray-800 block border-b-2 border-b-gray-800"
                   >
-                    Blog
+                    Download
                   </a>
                 </li>
               </ul>
