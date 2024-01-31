@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
@@ -14,7 +13,7 @@ const Header = () => {
           href="/"
           className="text-2xl font-bold font-serif text-gray-800 block"
         >
-          EV395
+          X-TASY
         </a>
         <nav className="hidden md:flex">
           {/* Desktop Navigation */}

@@ -39,7 +39,7 @@ const Footer = () => {
         <hr className="my-6 border-gray-700" />
 
         <p className="text-center text-gray-400">
-          &copy; {new Date().getFullYear()} EV395. All rights reserved.
+          &copy; {new Date().getFullYear()} X-TASY. All rights reserved.
         </p>
       </div>
     </footer>

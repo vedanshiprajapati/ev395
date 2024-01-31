@@ -33,14 +33,14 @@ const Body = () => {
       {/* Text with enhanced spring animation */}
       <animated.div style={{ ...textAnimation }} className="md:w-1/2">
         <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold text-blue-700 mb-6 text-gradient-blue">
-          Welcome to EV395 Prerelease
+          Welcome to X-TASY Prerelease
         </h2>
         <p className="text-sm md:text-lg lg:text-xl text-gray-800 mb-4">
           Discover the latest features and innovations in our upcoming app. Be
           part of the excitement and join us on this journey.
         </p>
         <p className="text-sm md:text-lg lg:text-xl text-gray-800 mb-4">
-          With EV395, experience a new level of convenience and functionality.
+          With X-TASY, experience a new level of convenience and functionality.
           Stay tuned for more updates!
         </p>
       </animated.div>

@@ -1,9 +1,6 @@
-// Contact.js
-import React from "react";
 import { useSpring, animated } from "react-spring";
 
 const Contact = () => {
-  // Movement animation
   const movementAnimation = useSpring({
     from: { transform: "translateY(20px)", opacity: 0 },
     to: { transform: "translateY(0)", opacity: 1 },
@@ -25,9 +22,8 @@ const Contact = () => {
       </p>
 
       <div className="flex items-center mt-4">
-        {/* You can add your contact form or contact details here */}
         <p className="text-base md:text-lg lg:text-lg text-gray-800">
-          Email: ev395@gmail.com
+          Email: xtasy.social@gmail.com
         </p>
       </div>
     </animated.div>

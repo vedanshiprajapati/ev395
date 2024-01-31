@@ -30,7 +30,6 @@ const ComingSoon = () => {
       style={backgroundAnimation}
     >
       <animated.div style={rocketAnimation}>
-        {/* Creative UI component with movement */}
         <div className="bg-white text-blue-900 p-4 rounded-full mb-6 transform hover:scale-110 transition duration-300">
           <span role="img" aria-label="Rocket" className="text-4xl">
             🚀
@@ -59,8 +58,6 @@ const ComingSoon = () => {
           </Link>{" "}
           for more information.
         </p>
-
-        {/* Button to go back to the home page */}
         <Link
           to="/"
           className="bg-white text-blue-500 py-2 px-4 mt-8 rounded-full inline-block hover:bg-blue-500 hover:text-white transition-all"
